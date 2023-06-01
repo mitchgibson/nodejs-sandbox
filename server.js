@@ -1,5 +1,6 @@
 import http from "http";
 
+// server
 const server = http.createServer((req, res) => {
     if (req.method === "GET") return get(req, res);
 
